@@ -1,0 +1,17 @@
+{
+  "name": "健身动作库",
+  "short_name": "动作库",
+  "description": "包含动作示范与中文步骤的健身动作库",
+  "lang": "zh-CN",
+  "start_url": "./app.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f4f5",
+  "theme_color": "#ff4f00",
+  "icons": [{
+    "src": "app-icon.svg",
+    "sizes": "any",
+    "type": "image/svg+xml",
+    "purpose": "any maskable"
+  }]
+}
