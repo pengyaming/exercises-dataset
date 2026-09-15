@@ -1,7 +1,7 @@
-const VERSION = 'exercise-library-v1';
+const VERSION = 'exercise-library-v2';
 const APP_CACHE = VERSION + '-app';
 const MEDIA_CACHE = VERSION + '-media';
-const APP_SHELL = ['./app.html', './index.html', './manifest.webmanifest', './app-icon.svg'];
+const APP_SHELL = ['./app.html', './index.html', './manifest.webmanifest', './app-icon.svg', './pwa-zh.js'];
 
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(APP_CACHE).then(cache => cache.addAll(APP_SHELL)));
