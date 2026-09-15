@@ -1,7 +1,7 @@
-const VERSION = 'exercise-library-v2';
+const VERSION = 'exercise-library-v3';
 const APP_CACHE = VERSION + '-app';
 const MEDIA_CACHE = VERSION + '-media';
-const APP_SHELL = ['./app.html', './index.html', './manifest.webmanifest', './app-icon.svg', './pwa-zh.js'];
+const APP_SHELL = ['./app.html', './manifest.webmanifest', './app-icon.svg', './data/mobile-zh-1.json', './data/mobile-zh-2.json', './data/mobile-zh-3.json', './data/mobile-zh-4.json', './data/mobile-zh-5.json', './data/mobile-zh-6.json', './data/mobile-zh-7.json', './data/mobile-zh-8.json'];
 
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(APP_CACHE).then(cache => cache.addAll(APP_SHELL)));
